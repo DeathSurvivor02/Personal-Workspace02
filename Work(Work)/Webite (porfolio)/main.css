@@ -1,0 +1,30 @@
+nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #333;
+}
+
+li {
+	float: right;
+
+}
+
+li a {
+	display: block;
+	colour: rgba(0, 0, 128, 0.7);
+	text-align: center;
+	padding: 14px 18px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: rgb(14, 12, 48);
+	text-decoration: none;
+}
+
+body {
+	display: flow;
+	background-color: rgb(30, 26, 46);
+}

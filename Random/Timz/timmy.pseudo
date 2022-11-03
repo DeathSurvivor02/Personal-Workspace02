@@ -1,0 +1,30 @@
+
+function Initialization(int i, int timeArray[], int arraysize)
+begin
+	arraysize = 16
+	for i = 0 to arraysize -1 do
+	timeArray[i] = 0
+	end for 
+end Initialization
+
+
+function populateArray(int i, int timeArray, int arraysize)
+begin 
+	for i = 0 to arraysize -1 do
+		print "Please enter estimated production time"
+		read time
+		timeArray[i] = time
+	end for
+end populateArray
+
+function PrintArray(int i, int timeArray, int arraySize)
+begin 
+	for i = 0 to arraysize-1 do
+		print timeArray[i]
+	end for
+end PrintArray
+	
+
+function
+
+

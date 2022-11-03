@@ -1,0 +1,37 @@
+Main
+
+do count = 0 to 9
+    OrderArray(count) = 0
+enddo
+do count = 0 to 9
+    prompt for OrderArray(count)
+    get OrderArray(count)
+enddo
+do i = 0 to 9
+    MinIndex = i
+    t = i + 1
+    do j = t to 9
+        IF (OrderArray(j) > OrderArray(MinIndex)) THEN
+            MinIndex= j
+        endif
+    enddo
+    if (MinIndex!= i) then
+        Temp = OrderArray(i)
+        OrderArray(i) = OrderArray (MinIndex)
+        OrderArray(MinIndex) = Temp
+    endif
+enddo
+do i = 0 to 9
+    print "The largest Orders are:", OrderArray(i)
+enddo      
+prompt for sum 
+	read sum
+
+    for i = 0 to 9
+    	sum = sum - Orderarray(i)
+	if sum <= 0 then
+		
+	endif
+
+
+enddo  
