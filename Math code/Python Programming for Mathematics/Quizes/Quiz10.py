@@ -2,7 +2,10 @@
 
 
 def name_and_age(name, age):
-	print("%s is %i",name, age)
-	return ("%s is %i",name, age)
+	if age < 0:
+		return("Error: Invalid age")
+	else:
+		return("%s" % name, "is %d" % age, "years old")
+		# return ("%s is %i",name, age)
 
-name_and_age("Ean", 20)
+name_and_age("Ean", -1)
