@@ -71,7 +71,8 @@
       "numbers": "cpp"
     },
     "terminal.explorerKind": "external",
-    "githubIssues.createInsertFormat": "url"
+    "githubIssues.createInsertFormat": "url",
+    "cSpell.words": ["Brawthwaite"]
   },
   "launch": {
     "version": "0.2.0",

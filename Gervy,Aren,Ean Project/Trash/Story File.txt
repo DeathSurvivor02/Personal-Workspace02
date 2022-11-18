@@ -1,0 +1,12 @@
+struct choice
+{
+	int happiness
+	int level;
+
+}
+
+class choice
+{
+	public:
+        
+}
