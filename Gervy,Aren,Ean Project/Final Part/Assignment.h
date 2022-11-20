@@ -13,27 +13,29 @@ const float MAX = 100;
 class story_state_attributes
 {
 	public:
-	float temp = health + experience + happiness;
-	float story_state_factor = (temp/MAX) * 1.0;
+	double temp = 0.0 /* = health + experience + happiness */;
+	double story_state_factor = 0.0;
 	
-	float health = 0.0;
-	float experience = 0.0;
-	float happiness = 0.0;
+	double health;
+	double experience;
+	double happiness;
 	
 };
 class choice
 {
 	public:
-	float health_increment;
-	float experience_increment;
-	float happiness_increment;
+	double health_increment;
+	double experience_increment;
+	double happiness_increment;
+	char option;
+	char option2;
 };
 
 class event
 {
 	public:
 
-	float trigger_factor = 0.0;
+	float trigger_factor;
 
 };
 void update_attributes();
