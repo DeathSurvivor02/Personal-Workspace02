@@ -1,0 +1,693 @@
+/**
+ * The ArrayData program implements an application that
+ * allows the user to practice with the basics of Java
+ * including classes, arrays, methods and fields.
+ *
+ * @author  Alinthia Auguiste, Dane Cadogan, Shevon Crookendale
+ * @version 1.0
+ * @since   2022-10-07
+ */
+
+import java.util.Random; // library to access functions to randomize
+
+// This class 
+public class ArrayData
+{
+    private int rows; //contains total number of rows
+    private int columns; //contains total number of columns
+    private int values[][]; // contains integers that are used by the class
+    private int rowData[]; // contains the sum (or other operations) of the integers in each row of the values array
+    private int colData[]; // contains the sum (or other operations) of the integers in each column of the values array
+
+    /**
+     * This is the ArrayData constructor which
+     * initialises the fields to default values.
+     * @return Nothing.
+     */
+    public ArrayData()
+    {
+        rows = 10; // initialize data member to 10
+        columns = 10; // initialize data member to 10
+
+        rowData = new int[rows]; // create an array of integers with the same number of elements as 'rows'
+        colData = new int[columns]; // create an array of integers with the same number of elements as 'columns'
+        values = new int[rows][columns]; // create a 2 dimensional array with dimensions 'rows' x 'columns'
+
+        // initialising the values array
+        for(int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < columns; j++)
+            {
+                values[i][j] = 0; // set all values in 2d array to 0
+            }
+        }
+
+        // initialising the rowData array
+        for(int i = 0; i < rowData.length; i++)
+        {
+            rowData[i] = 0; // set all values to 0
+        }
+
+        // initialising the colData array
+        for(int i = 0; i < colData.length; i++)
+        {
+            colData[i] = 0; // set all values to 0
+        }
+
+    } // ArrayData Constructor
+
+    /**
+     * This is the ArrayData constructor which
+     * initialises the fields using a given
+     * number of rows and columns.
+
+     * @return Nothing.
+     */
+    public ArrayData(int nrows, int ncolumns)
+    {
+        // validate input
+        if ( ( nrows > 0 ) && ( ncolumns > 0 ) )
+        {
+            // intialising data members with given values
+            rows = nrows;
+            columns = ncolumns;
+
+            rowData = new int[rows]; // create an array of integers with the same number of elements as 'rows'
+            colData = new int[columns]; // create an array of integers with the same number of elements as 'columns'
+            values = new int[rows][columns]; // create a 2 dimensional array
+
+            // initialising the values array to default values of 0
+            for (int i = 0; i < values.length; i++)
+            {
+                for(int j = 0; j < values[i].length; j++)
+                {
+                    values[i][j] = 0; // set all values to 0
+                }
+            }
+
+            // initialising the rowData array to default values of 0
+            for(int i = 0; i < rowData.length; i++)
+            {
+                rowData[i] = 0; // set all values to 0
+            }
+
+            // initialising the colData array to default values of 0
+            for(int i = 0; i < colData.length; i++)
+            {
+                colData[i] = 0; // set all values to 0
+            }
+        } // endif
+
+    } // ArrayData(int, int) constructor
+
+    /**
+     * This is the ArrayData constructor which
+     * initialises the fields using a given
+     * number of rows, columns, and starting value.
+
+     * @return Nothing.
+     */
+    public ArrayData(int nrows, int ncolumns, int startingValue)
+    {
+        // validate input
+        if ( ( nrows > 0 ) && ( ncolumns > 0 ) )
+        {
+            // intialising data members with new values
+            rows = nrows;
+            columns = ncolumns;
+
+            rowData = new int[rows]; // create an array of integers with the same number of elements as 'rows'
+            colData = new int[columns]; // create an array of integers with the same number of elements as 'columns'
+            values = new int[rows][columns]; // create a 2 dimensional array
+
+            // initialising the values array to default values of 0
+            for (int i = 0; i < values.length; i++)
+            {
+                for(int j = 0; j < values[i].length; j++)
+                {
+                    values[i][j] = startingValue; // set all values to startingValue
+                }
+            }
+
+            // initialising the rowData array to default values of 0
+            for(int i = 0; i < rowData.length; i++)
+            {
+                rowData[i] = 0; // set all values to 0
+            }
+
+            // initialising the colData array to default values of 0
+            for(int i = 0; i < colData.length; i++)
+            {
+                colData[i] = 0; // set all values to 0
+            }
+        } // endif
+
+    } // ArrayData(int, int, int) constructor
+
+    /**
+     * This is the resetRowDataColData utility method which
+     * resets the rowData and colData array elements to 0.
+
+     * @return Nothing.
+     */
+    void resetRowDataColData()
+    {
+        // initialise the rowData array to default values of 0
+        for(int i = 0; i < rowData.length; i++)
+        {
+            rowData[i] = 0; // set all values to 0
+        }
+
+        // initialise the colData array to default values of 0
+        for(int j = 0; j < colData.length; j++)
+        {
+            colData[j] = 0; // set all values to 0
+        }
+
+    } // resetRowDataColData utility method
+
+    /**
+     * This is the generate method which randomly chooses 'total' positions
+     * in the values array and sets them to newValue within the ranges
+     * of minRow and maxRow and minCol and maxCol inclusively.
+
+     * @return Nothing.
+     */
+    void generate( int newValue, int total, int minRow, int maxRow, int minCol, int maxCol )
+    {
+        Random rand = new Random(); //creates an instance of random
+
+        System.out.println();
+
+        // validate input
+        if ( (minRow <= rows) && (maxRow < rows) && (minCol <= columns) && (maxCol < columns) )
+        {
+            // if values are within index range
+            if ( (minRow > -1) && (maxRow > -1) && (minCol > -1) && (maxCol > -1) )
+            {
+                try
+                {
+                    // for 'total' times
+                    for(int i = 0; i < total; i++)
+                    {
+                        int randRow = rand.nextInt(minRow, maxRow + 1); //Select a random row position between minRow and maxRow inclusively
+                        int randCol = rand.nextInt(minCol, maxCol + 1); //Select a random col position between minCol and maxCol inclusively
+
+                        values[randRow][randCol] = newValue;  // Assign newValue to the position
+                    }
+                }
+                catch(Exception e)
+                {
+                }
+            } // end if
+        } // end if
+
+    } // generate method
+
+    /**
+     * This is the flip method which changes the values of 'num'
+     * positions in the values array and sets them to val.
+
+     * @return Nothing.
+     */
+    void flip(int num, int val)
+    {
+        Random rand = new Random(); //creates an instance of random
+
+        // validate input
+        if ( num > 0 )
+        {
+            // traverse the array num times
+            for(int i = 0; i < num; i++)
+            {
+                int randRow = rand.nextInt(rows); // Generate random row number
+                int randCol = rand.nextInt(columns); // Generate random column number
+                values[randRow][randCol] = val;  // Assign val to the random position
+            }
+        } // end if
+
+    } // flip method
+
+    /**
+     * This is the sum method which calculates the sum of
+     * each row and places it in the rowData array and the
+     * sum of each column and places it in the colData array.
+
+     * @return Nothing.
+     */
+    void sum()
+    {
+        // call to utility function to reset the rowData and colData array elements to 0
+        resetRowDataColData();
+
+        //Calculates sum of each row
+        for(int i = 0; i < values.length; i++)
+        {
+            for(int j = 0; j < values[0].length; j++)
+            {
+                rowData[i] = rowData[i] + values[i][j];
+            }
+            System.out.println(""+rowData[i]);
+        }
+
+        //Calculates sum of each column  
+        for(int i = 0; i < values[0].length; i++)
+        {
+            for(int j = 0; j < values.length; j++)
+            {
+                colData[i] = colData[i] + values[j][i];
+            }
+
+        }
+    } // sum method
+
+    /**
+     * This is the occurrence method which calculates the number of times
+     * a multiple of num or num itself DOES NOT occur in each row and places
+     * the count in the rowData array. It calculates how many times a multiple
+     * of num or num itself DOES occur in each column and places the count in
+     * the colData array.
+
+     * @return Nothing.
+     */
+    void occurrence( int num )
+    {
+        // validate input
+        if ( num > 0 )
+        {
+            // call to utility function to reset the rowData and colData array elements to 0
+            resetRowDataColData();
+
+            // traverse each row
+            for(int i = 0; i < rows; i++)
+            {
+                // traverse each column
+                for(int j = 0; j < columns; j++)
+                {
+                    //calculate the # of times 'num' or a multiple of 'num' DOES NOT appear in each row
+                    if ( (values[i][j] == 0) || (values[i][j] % num != 0) )
+                        rowData[i]++; // update count to the rowData array
+                }
+            }
+
+            // traverse each column
+            for(int i = 0; i < columns; i++)
+            {
+                // traverse each row
+                for(int j = 0; j < rows; j++)
+                {
+                    if ( (values[j][i] == 0) || (values[j][i] % num != 0) )
+                        continue;
+                        //if 'num' or a multiple of 'num' DOES appear in each column
+                    else
+                        colData[i]++; // update count to the colData array
+                }
+            }
+
+            System.out.println();
+            System.out.println();
+
+            // this method has its own print so that the rowData and colData arrays are not overwritten by the sum
+            // traverse the rows
+            for(int i = 0; i < values.length; i++)
+            {
+                // traverse the columns
+                for(int j = 0; j < values[i].length; j++)
+                {
+                    // print the values array elements
+                    System.out.printf(" " + values[i][j] + " |" );
+                }
+                // print the corresponding rowData element at the end of each row
+                System.out.println(" " + rowData[i]);
+            }
+            // print the colData values
+            for (int i = 0; i < columns; i++)
+            {
+                System.out.print(" " + colData[i]+ " |");
+            }
+        } // end if
+    } //occurrence method
+
+    /**
+     * This is the standardDeviation method which calculates the standard
+     * deviation of each row and places it in the rowData array and calculates
+     * the standard deviation of each column and places it in the colData array.
+
+     * @return Nothing.
+     */
+    public void standardDeviation()
+    {
+        // call to utility function to reset the rowData and colData array elements to 0
+        resetRowDataColData();
+
+        // call to sum method
+        sum();
+
+        double row[][]; // contains the (X - u)^2 of each row
+        row = new double[rows][columns];
+
+        double row2[][]; // contains the (X - u)^2 of each column
+        row2 = new double[rows][columns];
+
+        double  rowAverages[]; // contains the average of each row
+        double  colAverages[]; // contains the average of each column
+        double sum[]; // contains the sum  of each row after subtracting the mean from each value
+        double sum2[]; // contains the sum  of each row after subtracting the mean from each value
+        rowAverages = new double[rows]; // create an array of integers with the same number of elements as 'rows'
+        sum = new double[rows]; // create an array of integers with the same number of elements as 'rows'
+        colAverages = new double[columns]; // create an array of integers with the same number of elements as 'columns'
+        sum2 = new double[columns]; // create an array of integers with the same number of elements as 'columns'
+
+        // initialise the row array to default values of 0.0
+        for(int i = 0; i < rows; i++)
+        {
+            for(int j = 0; i < columns; i++)
+            {
+                row[i][j] = 0.0; // set all values to 0.0
+                row2[i][j] = 0.0; // set all values to 0.0
+                sum[i] = 0.0; // set all values to 0
+                rowAverages[i]=0.0; // set all values to 0
+                sum2[i] = 0.0; // set all values to 0
+                colAverages[i]=0.0; // set all values to 0
+            }
+        }
+
+        // initialising the rowAverages array to default values of the mean of the row
+        for(int i = 0; i < rowAverages.length; i++)
+        {
+            rowAverages[i]= (double)rowData[i]/rows;
+        }
+
+        // initialising the colAverages array to default values of the mean of the columns
+        for(int i = 0; i < colAverages.length; i++)
+        {
+            colAverages[i]= (double)colData[i]/columns;
+        }
+
+        // reusing code from sum function
+        try
+        {
+            // traverse each row
+            for(int i = 0; i < rows; i++)
+            {
+                try
+                {
+                    // traverse each column
+                    for(int j = 0; j < columns; j++)
+                    {
+                        //sub value from mean
+                        row[i][j] =   values[i][j] - rowAverages[i] ;
+                        //square the result
+                        row[i][j]= row[i][j]*row[i][j];
+                        //storing the total of the row in sum array
+                        sum[i]= sum[i]+row[i][j];
+                    }
+                }
+                catch (Exception e)
+                {
+                }
+            }
+        }
+        catch (Exception e)
+        {
+        }
+
+        try
+        {
+            // traverse each row
+            for(int i = 0; i < rows; i++)
+            {
+                try
+                {
+                    // traverse each column
+                    for(int j = 0; j < columns; j++)
+                    {
+                        //sub value from mean
+                        row2[i][j] =   values[j][i] - colAverages[i] ;
+                        //square the result
+                        row2[i][j]= row2[i][j]*row2[i][j];
+                        //storing the total of the column  in sum2 array
+                        sum2[i]= sum2[i]+row2[i][j];
+                    }
+                }
+                catch (Exception e)
+                {
+                }
+
+            }
+        }
+        catch (Exception e)
+        {
+        }
+
+        // dividing the sum of the row by number of rows
+        for(int i = 0; i < rows; i++)
+        {
+            sum[i]= sum[i]/rows;
+        }
+
+        // square the total
+        for(int i = 0; i < rows; i++)
+        {
+            sum[i] = Math.sqrt(sum[i]);
+        }
+
+        // dividing the sum of the column by number of  column
+        for(int i = 0; i < columns; i++)
+        {
+            sum2[i] = sum2[i]/columns;
+        }
+
+        // square the total
+        for(int i = 0; i < columns; i++)
+        {
+            sum2[i] = Math.sqrt(sum2[i]);
+        }
+
+        System.out.println();
+        System.out.println();
+
+        //print to see original values and the standard deviation for each row
+        // traverse the rows
+        for(int i = 0; i < rows; i++)
+        {
+            // traverse the columns
+            for(int j = 0; j < columns; j++)
+            {
+                // print the values array elements
+                System.out.printf(" " + values[i][j] + " |" );
+            }
+            // print the corresponding rowData element at the end of each row
+            System.out.println(" "+ sum[i] );
+        }
+        for (int i = 0; i < columns; i++){
+            System.out.print(" " + sum2[i]+ " |");
+        }
+        // end of  print
+
+    } // standardDeviation method
+
+    /**
+     * This is the checkeredOdd method which sums the values in the odd positions
+     * of the values array. It then sums the values in the even positions of the
+     * values array. Then it returns the result of dividing the odd sum by the even sum.
+
+     * @return double
+     */
+    double checkeredOdd()
+    {
+        double evenSum = 0.0;
+        double oddSum = 0.0;
+        double result = 0.0;
+
+        // traverse each row
+        for(int i = 0; i < values.length; i++)
+        {
+            // traverse each column
+            for( int j = 0; j < values[i].length; j++ )
+            {
+                // if the index is an odd number
+                if ( j%2 == 1 )
+                    oddSum = oddSum + values[i][j];
+                else
+                    evenSum = evenSum + values[i][j];
+            }
+        }
+
+        // prints for testing purposes
+        System.out.println();
+        System.out.println("Odd sum: " + oddSum);
+        System.out.println("Even sum: " + evenSum);
+
+        result = oddSum/evenSum;
+        return result;
+
+    } // checkeredOdd method
+
+    /**
+     * This is the product method which calculates the product of each row and column
+     * and places the results in rowData and colData respectively. If the product is
+     * between min and max inclusively, then the method will randomly decrementing
+     * an element of the corresponding row or column until the product is
+     * less than min.
+
+     * @return Nothing.
+     */
+    void product( int min, int max )
+    {
+        // call to utility function to reset the rowData and colData array elements to 0
+        resetRowDataColData();
+
+        Random rand = new Random(); //creates an instance of random
+
+        int rowPro = 1; // initialise row product to 1
+        int colPro = 1; // initialise column product to 1
+
+        // calculate the product of each row
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < columns; j++)
+            {
+                rowPro = values[i][j] * rowPro ;
+            }
+            while (rowPro >= min && rowPro <= max)
+            {
+                int randrow = rand.nextInt(columns);
+                values[i][randrow]--;
+                rowPro = 1;
+
+                for (int j = 0; j < columns; j++)
+                {
+                    rowPro = values[i][j] * rowPro;
+                }
+            }
+            rowData[i] = rowPro;
+            rowPro = 1;
+        }
+
+        // calculate the product of each column
+        for (int i = 0; i < columns; i++)
+        {
+            for (int j = 0; j < rows; j++)
+            {
+                colPro = values[j][i] * colPro;
+            }
+            while (colPro >= min && colPro <= max)
+            {
+                int randcol = rand.nextInt(rows);
+                values[randcol][i]--;
+                colPro = 1;
+
+                for (int c = 0; c < rows; c++)
+                {
+                    colPro = values[c][i] * colPro;
+                }
+            }
+            colData[i] = colPro;
+            colPro = 1;
+        }
+
+        System.out.println();
+        System.out.println();
+
+        // this method has its own print so that the rowData and colData arrays are not overwritten by the sum
+        // traverse the rows
+        for(int i = 0; i < values.length; i++)
+        {
+            // traverse the columns
+            for(int j = 0; j < values[i].length; j++)
+            {
+                // print the values array elements
+                System.out.printf(" " + values[i][j] + " |" );
+            }
+            // print the corresponding rowData element at the end of each row
+            System.out.println(" " + rowData[i]);
+        }
+        // print the colData values
+        for (int i = 0; i < columns; i++)
+        {
+            System.out.print(" " + colData[i]+ " |");
+        }
+
+    } // product method
+
+    /**
+     * This is the print method which prints the
+     * contents of the three arrays where the right-most
+     * column is the rowData array and the bottom line
+     * is the colData array.
+
+     * @return Nothing.
+     */
+    public void print()
+    {
+        // need to run the sum method for the colData and rowData arrays to have values
+        sum();
+
+        System.out.println();
+        System.out.println();
+
+        // traverse the rows
+        for(int i = 0; i < values.length; i++)
+        {
+            // traverse the columns
+            for(int j = 0; j < values[i].length; j++)
+            {
+                // print the values array elements
+                System.out.printf(" " + values[i][j] + " |" );
+            }
+            // print the corresponding rowData element at the end of each row
+            System.out.println(" " + rowData[i]);
+        }
+        // print the colData values
+        for (int i = 0; i < columns; i++)
+        {
+            System.out.print(" " + colData[i]+ " |");
+        }
+    } // print method
+
+    /**
+     * This is the print method which prints the contents
+     * of the three arrays but only the given number of
+     * rows and columns.
+
+     * @return Nothing.
+     */
+    public void print( int rows, int columns )
+    {
+        // validate input
+        if ( (rows <= values[0].length) && (columns <= values[1].length) )
+        {
+            int r = 0;
+            int c = 0;
+
+            r = rows; // store the new number of rows
+            c = columns; // store the new number of columns
+
+            // need to run the sum method for the colData and rowData arrays to have values
+            sum();
+
+            System.out.println();
+            System.out.println();
+            System.out.println();
+
+            // traverse the rows
+            for(int i = 0; i < r; i++)
+            {
+                // traverse the columns
+                for(int j = 0; j < c; j++)
+                {
+                    // print the values array elements
+                    System.out.printf(" " + values[i][j] + " |" );
+                }
+                // print the rowData array elements
+                System.out.println(" " + rowData[i]);
+            }
+            for (int i = 0; i < c; i++){
+                // print the colData array elements
+                System.out.print(" " + colData[i]+ " |");
+            }
+        }
+    } // print(int, int) method
+
+} // ArrayData class
