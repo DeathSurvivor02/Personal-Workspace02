@@ -3,6 +3,40 @@
         {
             "name": "Win32",
             "includePath": [
+                "C:/sdk/wx2202/src/**",
+                "c:\\Users\\eanby\\Music\\Personal Workspace02/**",
+                "C:/sdk/wx2202/include/",
+                "c:/wxWidgets-3.2.2.1(library)/include"
+            ],
+            "defines": [
+                "_WINDOWS",
+                "_DEBUG",
+                "UNICODE",
+                "__WXMSW__",
+                "NDEBUG",
+                "NOPCH",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "gcc-arm64",
+            "compilerPath": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "C:/sdk/wx2202/src/**",
+                    "${workspaceFolder}/**",
+                    "C:/sdk/wx2202/include/",
+                    "${workspaceFolder}/wxWidgets-3.2.2.1(library)/include/msvc"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "Linux",
+            "includePath": [
                 "${workspaceFolder}/**"
             ],
             "defines": [
@@ -10,11 +44,27 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "windowsSdkVersion": "10.0.19041.0",
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "cl.exe",
             "cStandard": "c17",
-            "cppStandard": "gnu++23",
-            "intelliSenseMode": "windows-gcc-x86",
-            "compilerPath": "C:/msys64/mingw64/bin/g++.exe"
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        },
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
         }
     ],
     "version": 4

@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "Personal Workspace02",
+			"path": "."
+		},
+		{
+			"name": "Workspace",
+			"path": "../../Documents/GitHub/Workspace"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.cpp": "cpp",
+			"*.h": "cpp",
+			"random": "cpp"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"eliverlara.sweet-vscode"
+		]
+	}
+}
