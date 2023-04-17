@@ -1,24 +1,63 @@
 {
-	"folders": [
-		{
-			"name": "Personal Workspace02",
-			"path": "."
-		},
-		{
-			"name": "Workspace",
-			"path": "../../Documents/GitHub/Workspace"
-		}
-	],
-	"settings": {
-		"files.associations": {
-			"*.cpp": "cpp",
-			"*.h": "cpp",
-			"random": "cpp"
-		}
-	},
-	"extensions": {
-		"recommendations": [
-			"eliverlara.sweet-vscode"
-		]
-	}
+  "folders": [
+    {
+      "name": "Personal Workspace02",
+      "path": "."
+    },
+    {
+      "name": "Workspace",
+      "path": "../../Documents/GitHub/Workspace"
+    }
+  ],
+  "settings": {
+    "files.associations": {
+      "*.cpp": "cpp",
+      "*.h": "cpp",
+      "random": "cpp",
+      "iostream": "cpp"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "eliverlara.sweet-vscode",
+      "manasxx.background-cover",
+      "rubenverg.bootstrap-product-icons",
+      "durzn.brackethighlighter",
+      "ms-vscode.cpptools-extension-pack",
+      "xaver.clang-format",
+      "naumovs.color-highlight",
+      "equinusocio.vsc-community-material-theme",
+      "aeschli.vscode-css-formatter",
+      "vscjava.vscode-java-debug",
+      "ms-vscode-remote.remote-containers",
+      "leonardssh.vscord",
+      "darkempire78.discord-tools",
+      "miguelsolorio.fluent-icons",
+      "drkryz.drkryz-theme",
+      "mhutchie.git-graph",
+      "donjayamanne.githistory",
+      "github.codespaces",
+      "github.vscode-pull-request-github",
+      "eamodio.gitlens",
+      "ttoowa.in-your-face-incredible",
+      "visualstudioexptteam.vscodeintellicode",
+      "visualstudioexptteam.intellicode-api-usage-examples",
+      "ms-python.isort",
+      "georgewfraser.vscode-javac",
+      "mwpb.java-prettier-formatter",
+      "xabikos.javascriptsnippets",
+      "ms-vscode.vscode-typescript-next",
+      "keenethics.keen-neutral-icon-theme",
+      "redhat.java",
+      "ms-vscode.live-server",
+      "ms-vsliveshare.vsliveshare-pack",
+      "starkwang.markdown",
+      "yzhang.markdown-all-in-one",
+      "shd101wyy.markdown-preview-enhanced",
+      "equinusocio.vsc-material-theme-icons",
+      "tal7aouy.rainbow-bracket",
+      "tejasvi.rainbow-brackets-2",
+      "ms-vscode-remote.remote-ssh"
+    ]
+  }
 }

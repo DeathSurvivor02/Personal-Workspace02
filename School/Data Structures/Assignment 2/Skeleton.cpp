@@ -16,14 +16,19 @@
 
 #include <iostream>
 #include <fstream>
-// #include <string>
+#include <string>
 
 #include "BinarySearchTree.h"
 #include "AVL Tree.h"
 #include "Red-BlackTree.h"
-#include "Splay Tree.h"
+#include "SplayTree.h"
 #include "Set.h"
 #include "MinHeapTree.h"
+
+RBT* rbt = new RBT();
+AVLTree* avl = new AVL();
+BSTree* bst = new BST();
+SplayTree* splay = new SplayTree();
 /************************************************************************************
 *************************************************************************************
   Step 2: Name an inherited application class from wxApp and declare it with
@@ -51,6 +56,7 @@ public:
 
 	// Functions for File Menu Items
 	void OnOpenFile(wxCommandEvent &event);
+	void OnDisplayFile(wxCommandEvent &event);
 	void OnSave(wxCommandEvent &event);
 	void OnSaveAs(wxCommandEvent &event);
 	void OnExit(wxCommandEvent &event); // handle for Quit function
@@ -192,7 +198,7 @@ EVT_MENU(ID_PostorderRB, ProjectFrame::OnPostorderRB)
 
 // Events for the Head Items
 EVT_MENU(ID_DisplayAll, ProjectFrame::OnDisplayAll)
-EVT_MENU(ID_DisplayAll, ProjectFrame::OnHeadSort)
+EVT_MENU(ID_HeapSort, ProjectFrame::OnHeapSort)
 
 // Events for the Help Items
 EVT_MENU(ID_About, ProjectFrame::OnAbout);
@@ -330,8 +336,7 @@ ProjectFrame::ProjectFrame(const wxString &title, const wxPoint &pos, const wxSi
 	filenameTextBox = new wxTextCtrl(panel, wxID_ANY, wxT("No File Opened Yet..."));
 
 	// Initialize the display window
-	MainEditBox = new wxTextCtrl(panel, wxID_ANY, wxT("No Data Available Yet..."),
-								 wxPoint(-1, -1), wxSize(-1, -1), wxTE_MULTILINE | wxTE_RICH);
+	MainEditBox = new wxTextCtrl(panel, wxID_ANY, wxT("No Data Available Yet..."), wxPoint(-1, -1), wxSize(-1, -1), wxTE_MULTILINE | wxTE_RICH);
 
 	// Position the labels and textboxes in the panel
 	hbox1->Add(fileLabel, 0, wxRIGHT, 8);
@@ -418,10 +423,22 @@ void ProjectFrame::OnExit(wxCommandEvent &event)
 }
 
 // Functions for the Edit items
-// void ProjectFrame::OnCreateADT(wxCommandEvent &event)
-// {
-// 	MainEditBox->Clear();
-// }
+void ProjectFrame::OnCreateADT(wxCommandEvent &event)
+{
+	MainEditBox->Clear();
+	// ifstream FileOpen(CurrentDocPath.mb_str(), ios::in);
+	struct Record
+	{
+		char month[10];
+		int year;
+		char Artist[50];
+		char songTitle[50];
+		char recordLabel[50];
+		int numberOfWeeks;
+	};
+
+	MainEditBox->Clear();
+}
 // void ProjectFrame::OnAddRecord(wxCommandEvent &event)
 // {
 // 	MainEditBox->Clear();
@@ -445,7 +462,7 @@ void ProjectFrame::OnExit(wxCommandEvent &event)
 // 	MainEditBox->Clear();
 // }
 
-// // Function for the AVL Items
+// // Functions for the AVL Items
 // void ProjectFrame::OnInOrderAVL(wxCommandEvent &event)
 // {
 // 	MainEditBox->Clear();
