@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 /* 6.41 (Recursive Greatest Common Divisor) The greatest
 common divisor of integers x and y is the largest integer that
 evenly divides both x and y . Write a recursive function gcd
@@ -15,10 +15,10 @@ int main()
 	int x = 0;
 	int y = 0;
 	int great = 0;
-	std::cout << "Enter a value for x and a value for y" << std::endl;
-	std::cin >> x >> y;
+	cout << "Enter a value for x and a value for y" << endl;
+	cin >> x >> y;
 	great = gcd(x, y);
-	std::cout << great << std::endl;
+	cout << great << endl;
 	return 0;
 }
 

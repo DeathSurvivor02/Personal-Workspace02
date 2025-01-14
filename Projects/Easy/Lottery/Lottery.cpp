@@ -36,8 +36,8 @@ int main()
 								}
 								else
 								{ 
-									lottery << count++ << " " << i << " " << j << " " << k << " " << l << " " << m << " " << n << " " << "0" << std::endl;
-									std::cout << count << " " << i << " " << j << " " << k << " " << l << " " << m << " " << n << std::endl;
+									lottery << count++ << " " << i << " " << j << " " << k << " " << l << " " << m << " " << n << " " << std::endl;
+									// std::cout << count << " " << i << " " << j << " " << k << " " << l << " " << m << " " << n << std::endl;
 								}
 							}
 						}

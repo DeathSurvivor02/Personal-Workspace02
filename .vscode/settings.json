@@ -1,6 +1,9 @@
 {
-  "python.formatting.provider": "yapf",
-  "python.analysis.typeCheckingMode": "basic",
-  "C_Cpp.errorSquiggles": "disabled",
-  "editor.definitionLinkOpensInPeek": true
+
+"editor.fontFamily": "fira-code",
+"editor.fontLigatures": true,
+"C_Cpp.errorSquiggles": "disabled",
+"cSpell.words": [
+	"gameplay"
+]
 }

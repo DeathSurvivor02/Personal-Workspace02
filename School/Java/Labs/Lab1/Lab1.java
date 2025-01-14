@@ -29,6 +29,7 @@ public class Circle {
 
 	public void SETy(int y_value) {
 		y = y_value;
+		y. = radius;
 	}
 
 	public void SETradius(int radius_value) {

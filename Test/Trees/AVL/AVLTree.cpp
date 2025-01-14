@@ -24,8 +24,7 @@ int main()
 {
 	
 	AVL* avl = new AVL();
-   
-    cout <<"\nInserting: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18\n\n";
+    // cout <<"\nInserting: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18\n\n";
     avl->insert(1);
     cout <<"\nDisplaying AVL Tree After Inserting: 1:\n\n";
     cout << displayTree(avl);

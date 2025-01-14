@@ -1,31 +1,49 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
+// using namespace
 
+struct record
+{
+	char month[10];
+	int year;
+	char artist[50];
+	char title[50];
+	char label[15];
+	int numweeks;
+};
+
+typedef struct record Record;
 int main()
 {
-	struct Record
-	{
-		char month[10];
-		int year;
-		char Artist[50];
-		char songTitle[50];
-		char recordLabel[50];
-		int numberOfWeeks;
-	};
-	typedef struct Record record;
-	ifstream dataFileOpen("RAFData.dat", ios::in);
+	ifstream infile("Catalog.dat", ios::in | ios::binary);
+	Record rec;
 
-	if (!dataFileOpen)
+	/*description: reads one record from the infile  */
+	infile.read(reinterpret_cast<char *>(&rec), sizeof(Record));
+
+	// description: display the record just read
+
+	cout << "Month = " << rec.month << endl;
+	cout << "Year = " << rec.year << endl;
+	cout << "Artist = " << rec.artist << endl;
+	cout << "Title = " << rec.title << endl;
+	cout << "Label = " << rec.label << endl;
+	cout << "Weeks = " << rec.numweeks << endl;
+
+	infile.seekg(0);
+	while (!infile.eof())
 	{
-		std::cout << "RAFDATA could not be accessed." << std::endl;
-		exit(1);
+		// read one record from the file
+		infile.read(reinterpret_cast<char *>(&rec), sizeof(Record));
+
+		cout << "Month = " << rec.month << endl;
+		cout << "Year = " << rec.year << endl;
+		cout << "Artist = " << rec.artist << endl;
+		cout << "Title = " << rec.title << endl;
+		cout << "Label = " << rec.label << endl;
+		cout << "Weeks = " << rec.numweeks << endl;
 	}
-	while (!dataFileOpen.eof())
-	{
-		dataFileOpen.read(reinterpret_cast<char*>((&record), sizeof(Record)));
-		std::cout <<"\n" << record.month[10] << "\t" << record.year << "\t" << record.Artist[10] << "\t" << record.songTitle[10] << "\t" << record.recordLabel[10] << "\t" << record.numberOfWeeks;
-	}
-	cout << "\n";
-	dataFileOpen.close();
+
+	return 0;
 }

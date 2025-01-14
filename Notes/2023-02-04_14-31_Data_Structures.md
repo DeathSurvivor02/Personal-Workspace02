@@ -72,7 +72,7 @@
 
 [red] Circular, double-linked
 	As above, but first and last node joined
-
+<font style = 'blue'> 
 ## 														[center] Queues 
 # Characteristics:
 1. Like waiting in line
@@ -81,6 +81,7 @@
 4. First in, first out (FIFO) data structure
 5. Insertion is called [red][bold] Enqueue
 6. Removal is called [red][bold] Dequeue
+</font>
 
 
 # Applications

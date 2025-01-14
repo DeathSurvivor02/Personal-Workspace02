@@ -151,7 +151,7 @@ int main()
 										}
 									}
 									lottery << count++ << " " << i << " " << j << " " << k << " " << l << " " << m << " " << n << " " << repeating << std::endl;
-									// std::cout << count << " " << i << " " << j << " " << k << " " << l << " " << m << " " << n << std::endl;
+									std::cout << count << " " << i << " " << j << " " << k << " " << l << " " << m << " " << n << std::endl;
 								}
 							}
 						}
