@@ -1,0 +1,134 @@
+body {
+  /* image-resolution: 720px; */
+  /* margin: 30%, 60%; */
+  background-color: #d1df36;
+  /* border: #d1df36 2px solid; */
+  padding: 20%;
+  border-bottom: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  /* background-color: #d1df36; */
+  margin: 0%;
+  border: 0%;
+  padding: 0%;
+}
+
+h2 {
+  background-color: darkgrey;
+  font-size: 1.5em;
+  color: #000000;
+  /* text-align: center; */
+  padding: 0%;
+  word-spacing: 0%;
+}
+
+#instructions {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#banner {
+  /* background-color: #d1df36; */
+  /* padding: 1%; */
+  /* border: #c6c6c7 2px solid; */
+  width: 300px;
+  height: 80px;
+  /* justify-content: flex-start; */
+  text-align: left;
+}
+
+#Heading {
+  font-size: 1em;
+  /* color: #c6c6c7; */
+  text-align: center;
+  padding: 0%;
+  word-spacing: 0%;
+}
+
+#Heading h1,
+h3 {
+  /* font-size: 1.5em; */
+  /* color: #c6c6c7; */
+  text-align: center;
+  padding: 0%;
+  word-spacing: 0%;
+}
+
+c div #content {
+  padding: 0.5%;
+}
+
+div #newline {
+  text-align: justify;
+}
+
+.input-line {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  font-size: 1rem;
+  /* padding: 0,10px,10px; */
+  width: 200px;
+
+}
+
+.input-line-feedback {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  font-size: 1rem;
+  width: 600px;
+}
+
+#instruction {
+  font-size: 1em;
+  text-align: left;
+  padding: 30px;
+}
+
+
+input[type="radio"] {
+  margin: 0px 10px;
+}
+
+li {
+  font-size: 1em;
+  text-align: left;
+  /* padding: 40px; */
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+fieldset {
+  background-color: #f6f6ff;
+  border: 1px solid #000000;
+  /* padding: 10px; */
+  /* margin: 10px; */
+  /* width: 50%; */
+}
+
+.containerSubmit {
+  text-align: center;
+  padding: 20px;
+}
+
+input[type="submit"], input[type="reset"] {
+  background-color: #9ca63c;
+  border: 1px solid #000000;
+  color: #000000;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

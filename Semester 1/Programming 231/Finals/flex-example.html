@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flex Images</title>
+
+	<style>
+		h2 {
+			/* text-align: center; */
+            margin-bottom: 20px;
+			font-weight: bold;
+			background-color: cornflowerblue;
+        }
+		body {
+			font-family: Arial, sans-serif;
+
+		}
+
+		img {
+			width: 200px;
+			height: 200px;
+		}
+
+		#item-1 {
+			justify-content: flex-start;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			/* margin: 20px; */
+			flex-direction: row;
+			/* padding: 10px; */
+		}
+
+		#item-2 {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			/* margin: 20px; */
+			flex-direction: row;
+			/* padding: 10px; */
+			justify-content: flex-end;
+		}
+
+		#item-3 {
+			display: flex;
+			flex-wrap: wrap;
+			/* align-items: center; */
+			/* margin: 20px; */
+			flex-direction: row;
+			/* padding: 10px; */
+			justify-content: center;
+		}
+
+		#item-4 {
+			display: flex;
+			flex-wrap: wrap;
+			/* align-items: center; */
+			/* margin: 20px; */
+			flex-direction: row;
+			/* padding: 10px; */
+			justify-content: space-between;
+		}
+
+		#item-5 {
+			display: flex;
+			flex-wrap: wrap;
+			/* align-items: center; */
+			margin: 20px;
+			flex-direction: row;
+			padding: 10px;
+			justify-content: space-around;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<h2>Example A</h2>
+		<div id="item-1">
+
+			<div><img src="image1.jpg" alt="Image 1"> </div>
+			<div><img src="image2.jpg" alt="Image 2"> </div>
+			<div><img src="image3.jpg" alt="Image 3"> </div>
+			<div><img src="image4.jpg" alt="Image 4"> </div>
+			<div><img src="image5.jpg" alt="Image 5"> </div>
+		</div>
+
+		<h2>Example B</h2>
+		<div id="item-2">
+
+			<div><img src="image1.jpg" alt="Image 1"> </div>
+			<div><img src="image2.jpg" alt="Image 2"> </div>
+			<div><img src="image3.jpg" alt="Image 3"> </div>
+			<div><img src="image4.jpg" alt="Image 4"> </div>
+			<div><img src="image5.jpg" alt="Image 5"> </div>
+		</div>
+
+		<h2>Example C</h2>
+		<div id="item-3">
+			<div><img src="image1.jpg" alt="Image 1"> </div>
+			<div><img src="image2.jpg" alt="Image 2"> </div>
+			<div><img src="image3.jpg" alt="Image 3"> </div>
+			<div><img src="image4.jpg" alt="Image 4"> </div>
+			<div><img src="image5.jpg" alt="Image 5"> </div>
+		</div>
+
+		<h2>Example D</h2>
+		<div id="item-4">
+			<div id="item-4"><img src="image1.jpg" alt="Image 1"> </div>
+			<div id="item-4"><img src="image2.jpg" alt="Image 2"> </div>
+			<div id="item-4"><img src="image3.jpg" alt="Image 3"> </div>
+			<div id="item-4"><img src="image4.jpg" alt="Image 4"> </div>
+			<div id="item-4"><img src="image5.jpg" alt="Image 5"> </div>
+		</div>
+
+		<h2>Example E</h2>
+		<div id="item-5">
+			<div><img src="image1.jpg" alt="Image 1"> </div>
+			<div><img src="image2.jpg" alt="Image 2"> </div>
+			<div><img src="image3.jpg" alt="Image 3"> </div>
+			<div><img src="image4.jpg" alt="Image 4"> </div>
+			<div><img src="image5.jpg" alt="Image 5"> </div>
+		</div>
+	</div>
+</body>
+
+</html>

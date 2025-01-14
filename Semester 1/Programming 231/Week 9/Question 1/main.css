@@ -1,0 +1,14 @@
+h1
+{
+    padding: 40px;
+    background-color:rgba(10, 112, 167, 0.655);
+    /* margin: 1%; */
+    border: black 1pt solid;
+}
+
+p
+{
+    padding: 40px;
+    background-color:blueviolet;
+    border: 5px solid black;
+}

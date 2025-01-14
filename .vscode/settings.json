@@ -5,5 +5,8 @@
 "C_Cpp.errorSquiggles": "disabled",
 "cSpell.words": [
 	"gameplay"
-]
+],
+"BracketHighlighter.enableExtension": false,
+"editor.autoClosingComments": "always",
+"liveServer.settings.port": 5501
 }

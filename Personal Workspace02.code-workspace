@@ -9,9 +9,6 @@
 		},
 		{
 			"path": "../../../Public/Documents"
-		},
-		{
-			"path": "../../Downloads/Parking_Lot_Code-20231021"
 		}
 	],
 	"settings": {
@@ -112,7 +109,8 @@
 		"editor.semanticHighlighting.enabled": true,
 		"workbench.preferredDarkColorTheme": "Sapphire",
 		"workbench.colorTheme": "Neon Night",
-		"editor.fontFamily": "Syne"
+		"editor.fontFamily": "Syne",
+		"CodeGPT.apiKey": "CodeGPT Plus Beta"
 	},
 	"extensions": {
 		"recommendations": [

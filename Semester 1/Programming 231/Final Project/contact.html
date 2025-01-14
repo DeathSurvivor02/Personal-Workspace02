@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="available.html">Properties</a>
+        <a href="contact.html">Contact</a>
+        <a href="sitemap.html">Site Map</a>
+    </nav>
+    <main>
+        <h2>Contact Form</h2>
+        <form action="mailto:agent@example.com" method="post" enctype="text/plain">
+            <label>First Name: <input type="text" name="first_name" required></label><br>
+            <label>Last Name: <input type="text" name="last_name" required></label><br>
+            <label>Email: <input type="email" name="email" required></label><br>
+            <label>Phone: <input type="tel" name="phone"></label><br>
+            <label>Property Type: 
+                <select name="property_type">
+                    <option value="house">House</option>
+                    <option value="condo">Condo</option>
+                </select>
+            </label><br>
+            <label>Number of Bedrooms: <input type="number" name="bedrooms"></label><br>
+            <label>Number of Bathrooms: <input type="number" name="bathrooms"></label><br>
+            <label>Price Range: <input type="text" name="price_range"></label><br>
+            <label>Additional Comments: <textarea name="comments"></textarea></label><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        &copy; 2024 [Agent's Name] Real Estate
+    </footer>
+</body>
+</html>

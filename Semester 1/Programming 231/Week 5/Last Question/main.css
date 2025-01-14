@@ -1,0 +1,8 @@
+table {
+    width: 200px;
+    margin: auto;
+}
+
+table, th, td {border-style: none;}
+caption {font-size: 2em; font-weight: bold;}
+

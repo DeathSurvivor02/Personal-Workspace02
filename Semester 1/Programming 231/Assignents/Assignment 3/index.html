@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<title>Course Evaluation</title>
+</head>
+
+<body>
+	<form action="" method="get">
+		<header>
+			<a href="https://www.centennialcollege.ca/" target="_blank">
+				<img src="centennialcollege_logo_horizontal_rgb.jpg" alt="banner" id="banner">
+			</a>
+		</header>
+
+		<div class="container">
+			<fieldset>
+				<div class="container">
+					<h3>Continuing Education Course/Instructor Evaluation</h3>
+				</div>
+
+				<div class="container">
+					<p id="instructions">Please read each statement carefully and consider each one individually. Use
+						the computer
+						card to make your
+						choice. Give only one answer for each of the questions.</p>
+				</div>
+
+				<ol>
+					<label for="course">Course Name:</label>
+					<input type="text" id="course" name="course" required class="input-line">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label for="instructor">Instructor:</label>
+					<input type="text" id="instructor" name="instructor" required class="input-line" required>
+					<br>
+					<label for="semester" required>Semester: </label>
+					<input type="radio" name="semester" id="Fall" value="Fall">
+					<label for="Fall">Fall</label>
+					<input type="radio" name="semester" id="Winter" value="Winter">
+					<label for="Winter">Winter</label>
+					<input type="radio" name="semester" id="Summer" value="Summer">
+					<label for="Summer">Summer/Spring</label>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label for="year">Year: </label>
+					<select name="year" id="year">
+						<option value="2020">2020</option>
+						<option value="2021">2021</option>
+						<option value="2022">2022</option>
+						<option value="2023">2023</option>
+						<option value="2024">2024</option>
+						<option value="2025">2025</option>
+					</select>
+					<!-- <input type="text" id="year" name="year" required class="input-line"> -->
+					<br>
+					<h2>Instructor</h2>
+					<p>How would you rate the instructor's:</p>
+					<li><strong>knowledge</strong> of subject?</li>
+					<input type="radio" name="knowledge" id="knowledge1" value="Excellent">
+					<label for="knowledge1">Excellent</label>
+					<input type="radio" name="knowledge" id="knowledge2" value="Good">
+					<label for="knowledge2">Good</label>
+					<input type="radio" name="knowledge" id="knowledge3" value="Fair">
+					<label for="knowledge3">Fair</label>
+					<input type="radio" name="knowledge" id="knowledge4" value="Not Satisfactory">
+					<label for="knowledge4">Not Satisfactory</label>
+					<li><strong>Helpfulness</strong>?</li>
+					<input type="radio" name="helpfulness" id="helpfulness1" value="Excellent">
+					<label for="helpfulness1">Excellent</label>
+					<input type="radio" name="helpfulness" id="helpfulness2" value="Good">
+					<label for="helpfulness2">Good</label>
+					<input type="radio" name="helpfulness" id="helpfulness3" value="Fair">
+					<label for="helpfulness3">Fair</label>
+					<input type="radio" name="helpfulness" id="helpfulness4" value="Not Satisfactory">
+					<label for="helpfulness4">Not Satisfactory</label>
+					<li><strong>courtesy and respect</strong> for all students?</li>
+					<input type="radio" name="courtesy" id="courtesy1" value="Excellent">
+					<label for="courtesy1">Excellent</label>
+					<input type="radio" name="courtesy" id="courtesy2" value="Good">
+					<label for="courtesy2">Good</label>
+					<input type="radio" name="courtesy" id="courtesy3" value="Fair">
+					<label for="courtesy3">Fair</label>
+					<input type="radio" name="courtesy" id="courtesy4" value="Not Satisfactory">
+					<label for="courtesy4">Not Satisfactory</label>
+					<li><strong>communication</strong> skills?</li>
+					<input type="radio" name="communication" id="communication1" value="Excellent">
+					<label for="communication1">Excellent</label>
+					<input type="radio" name="communication" id="communication2" value="Good">
+					<label for="communication2">Good</label>
+					<input type="radio" name="communication" id="communication3" value="Fair">
+					<label for="communication3">Fair</label>
+					<input type="radio" name="communication" id="communication4" value="Not Satisfactory">
+					<label for="communication4">Not Satisfactory</label>
+					<li>overall <strong>performance</strong>?</li>
+					<input type="radio" name="performance" id="performance1" value="Excellent">
+					<label for="performance1">Excellent</label>
+					<input type="radio" name="performance" id="performance2" value="Good">
+					<label for="performance2">Good</label>
+					<input type="radio" name="performance" id="performance3" value="Fair">
+					<label for="performance3">Fair</label>
+					<input type="radio" name="performance" id="performance4" value="Not Satisfactory">
+					<label for="performance4">Not Satisfactory</label>
+
+					<h2>Course</h2>
+
+					<li>How would you rate the <strong>course materials</strong>?</li>
+					<input type="radio" name="materials" id="materials1" value="Excellent">
+					<label for="materials1">Excellent</label>
+					<input type="radio" name="materials" id="materials2" value="Good">
+					<label for="materials2">Good</label>
+					<input type="radio" name="materials" id="materials3" value="Fair">
+					<label for="materials3">Fair</label>
+					<input type="radio" name="materials" id="materials4" value="Not Satisfactory">
+					<label for="materials4">Not Satisfactory</label>
+					<li>How much did this course meet your <strong>expectations</strong>?</li>
+					<input type="radio" name="expectations" id="expectations1" value="Excellent">
+					<label for="expectations1">Excellent</label>
+					<input type="radio" name="expectations" id="expectations2" value="Good">
+					<label for="expectations2">Good</label>
+					<input type="radio" name="expectations" id="expectations3" value="Fair">
+					<label for="expectations3">Fair</label>
+					<input type="radio" name="expectations" id="expectations4" value="Not Satisfactory">
+					<label for="expectations4">Not Satisfactory</label>
+					<li>How would you rate this course (<strong>overall</strong>)?</li>
+					<input type="radio" name="overall" id="overall1" value="Excellent">
+					<label for="overall1">Excellent</label>
+					<input type="radio" name="overall" id="overall2" value="Good">
+					<label for="overall2">Good</label>
+					<input type="radio" name="overall" id="overall3" value="Fair">
+					<label for="overall3">Fair</label>
+					<input type="radio" name="overall" id="overall4" value="Not Satisfactory">
+					<label for="overall4">Not Satisfactory</label>
+
+					<h2>General Information</h2>
+					<li>Was the <strong>course outline</strong> reviewed/explained at the beginning of your course?</li>
+					<input type="radio" name="outline" id="outline1" value="Yes">
+					<label for="outline1">Yes</label>
+					<input type="radio" name="outline" id="outline2" value="No">
+					<label for="outline2">No</label>
+					<input type="radio" name="outline" id="outline3" value="Not Sure">
+					<label for="outline3">Not Sure</label>
+					<li>Would you <strong>recommend</strong> this course to a friend with the same interests?</li>
+					<input type="radio" name="recommend" id="recommend1" value="Yes">
+					<label for="recommend1">Yes</label>
+					<input type="radio" name="recommend" id="recommend2" value="No">
+					<label for="recommend2">No</label>
+					<input type="radio" name="recommend" id="recommend3" value="Not Sure">
+					<label for="recommend3">Not Sure</label>
+					<li>What is the <strong>best thing</strong> about this course?
+						<input type="text" name="comments" id="comments" size="90" class="input-line-feedback">
+					</li>
+					<li>How would you <strong>improve</strong> this course?
+						<input type="text" name="comments" id="comments" size="40" class="input-line-feedback ">
+					</li>
+				</ol>
+				<div class="containerSubmit">
+					<input type="submit" value="Submit" class="submit-button">
+					<input type="reset" value="Reset" class="submit-button">
+				</div>
+			</fieldset>
+		</div>
+	</form>
+</body>
+
+</html>
