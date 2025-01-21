@@ -1,0 +1,4 @@
+function setupForm()
+{
+	document.getElementById()
+}

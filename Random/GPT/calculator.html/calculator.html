@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Interest Rate Calculator</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="a1-XXXXXXXX.js" defer></script>
+</head>
+<body>
+	<header>
+		<h1>Interest Rate Calculator</h1>
+		<p>Created by [Your Name] - [Your Student ID]</p>
+	</header>
+
+	<form id="interest-form">
+		<label>Currency:</label>
+		<input type="radio" id="USD" name="currency" value="USD">
+		<label for="USD">USD</label>
+		<input type="radio" id="CAD" name="currency" value="CAD">
+		<label for="CAD">CAD</label>
+		<br>
+
+		<label for="IniBal">Initial Balance:</label>
+		<input type="number" id="IniBal" name="IniBal" placeholder="100">
+		<br>
+
+		<label for="IntRate">Interest (%):</label>
+		<input type="number" id="IntRate" name="IntRate" placeholder="5">
+		<br>
+
+		<label for="Period">Period (years):</label>
+		<input type="number" id="Period" name="Period" placeholder="3">
+		<br>
+
+		<button type="button" id="calculate-button">Calculate</button>
+	</form>
+
+	<section id="results">
+		<h3>Calculation Results</h3>
+		<p id="total-interest"></p>
+		<p id="final-balance"></p>
+	</section>
+</body>
+</html>

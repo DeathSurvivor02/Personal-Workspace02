@@ -1,0 +1,34 @@
+h2{
+	text-align: center;
+}
+
+form
+{
+	
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+form label,input
+{
+	/* display: block; */
+    margin: 10px 0;
+    padding: 5px;
+    /* width: 200px; */
+    box-sizing: border-box;
+}
+
+
+input[type="submit"]
+{
+	background-color: #0066cc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+h3{
+	text-align: center;
+}

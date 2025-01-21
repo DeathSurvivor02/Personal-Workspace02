@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bynoe\\Music\\Personal Workspace02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03D652FB-607F-49B5-905D-5B69403DEED8}|Personal Workspace02.csproj|c:\\users\\bynoe\\music\\personal workspace02\\medal_w\\medal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D652FB-607F-49B5-905D-5B69403DEED8}|Personal Workspace02.csproj|solutionrelative:medal_w\\medal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0004C1D1-ABD9-424D-923B-5D1BCD885042}|Medal_W\\Medal_W.csproj|c:\\users\\bynoe\\music\\personal workspace02\\medal_w\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0004C1D1-ABD9-424D-923B-5D1BCD885042}|Medal_W\\Medal_W.csproj|solutionrelative:medal_w\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0004C1D1-ABD9-424D-923B-5D1BCD885042}|Medal_W\\Medal_W.csproj|c:\\users\\bynoe\\music\\personal workspace02\\medal_w\\medalcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0004C1D1-ABD9-424D-923B-5D1BCD885042}|Medal_W\\Medal_W.csproj|solutionrelative:medal_w\\medalcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0004C1D1-ABD9-424D-923B-5D1BCD885042}|Medal_W\\Medal_W.csproj|c:\\users\\bynoe\\music\\personal workspace02\\medal_w\\medal_w.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0004C1D1-ABD9-424D-923B-5D1BCD885042}|Medal_W\\Medal_W.csproj|solutionrelative:medal_w\\medal_w.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bynoe\\Music\\Personal Workspace02\\Medal_W\\Program.cs",
+              "RelativeDocumentMoniker": "Medal_W\\Program.cs",
+              "ToolTip": "C:\\Users\\bynoe\\Music\\Personal Workspace02\\Medal_W\\Program.cs",
+              "RelativeToolTip": "Medal_W\\Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwEEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T20:24:40.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MedalColor.cs",
+              "DocumentMoniker": "C:\\Users\\bynoe\\Music\\Personal Workspace02\\Medal_W\\MedalColor.cs",
+              "RelativeDocumentMoniker": "Medal_W\\MedalColor.cs",
+              "ToolTip": "C:\\Users\\bynoe\\Music\\Personal Workspace02\\Medal_W\\MedalColor.cs",
+              "RelativeToolTip": "Medal_W\\MedalColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T20:24:40.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Medal_W.csproj",
+              "DocumentMoniker": "C:\\Users\\bynoe\\Music\\Personal Workspace02\\Medal_W\\Medal_W.csproj",
+              "RelativeDocumentMoniker": "Medal_W\\Medal_W.csproj",
+              "ToolTip": "C:\\Users\\bynoe\\Music\\Personal Workspace02\\Medal_W\\Medal_W.csproj",
+              "RelativeToolTip": "Medal_W\\Medal_W.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T20:24:40.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Medal.cs",
+              "DocumentMoniker": "C:\\Users\\bynoe\\Music\\Personal Workspace02\\Medal_W\\Medal.cs",
+              "RelativeDocumentMoniker": "Medal_W\\Medal.cs",
+              "ToolTip": "C:\\Users\\bynoe\\Music\\Personal Workspace02\\Medal_W\\Medal.cs",
+              "RelativeToolTip": "Medal_W\\Medal.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAASwBEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T20:24:40.43Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

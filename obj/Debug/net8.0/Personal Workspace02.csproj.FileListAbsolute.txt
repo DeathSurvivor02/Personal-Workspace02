@@ -1,0 +1,5 @@
+c:\Users\bynoe\Music\Personal Workspace02\obj\Debug\net8.0\Personal Workspace02.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\bynoe\Music\Personal Workspace02\obj\Debug\net8.0\Personal Workspace02.AssemblyInfoInputs.cache
+c:\Users\bynoe\Music\Personal Workspace02\obj\Debug\net8.0\Personal Workspace02.AssemblyInfo.cs
+c:\Users\bynoe\Music\Personal Workspace02\obj\Debug\net8.0\Personal Workspace02.csproj.CoreCompileInputs.cache
+c:\Users\bynoe\Music\Personal Workspace02\obj\Debug\net8.0\Personal Workspace02.sourcelink.json

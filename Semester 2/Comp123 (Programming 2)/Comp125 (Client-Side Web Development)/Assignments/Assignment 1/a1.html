@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="a1-301390261.js" defer></script>
+</head>
+
+<body>
+
+	<h2>Interest Rate Calculator</h2>
+
+	<form action="">
+		<label for="Currency">Currency: </label>
+		<radio>
+			<!-- <div> -->
+				<input type="radio" id="USD" name="currency" value="USD" required>
+				<label for="USD">USD</label>
+				<input type="radio" name="currency" id="CAD">
+				<label for="CAD">CAD</label>
+			<!-- </div> -->
+		</radio>
+		<br>
+		<!-- Description: Help me -->
+		<label for="IniBal">Initial Balance</label>
+		<input type="text" name="IniBal" id="IniBal">
+		<!-- Description: Help me -->
+		<br>
+		<label for="IntRate">Interest (%)</label>
+        <input type="text" name="IntRate" id="IntRate">
+		<!-- Description: Help me -->
+		<br>
+		<label for="Period">Period (years)</label>
+		<input type="text" name="Period" id="Period">
+		<!-- Description: Help me -->
+		<br>
+        <input type="submit" value="Calculate" id="CalcButn">
+	</form>
+
+	<h3>Calculation Results</h3>
+
+	<p>Total Interest (Simple)</p>
+
+	
+</body>
+
+</html>

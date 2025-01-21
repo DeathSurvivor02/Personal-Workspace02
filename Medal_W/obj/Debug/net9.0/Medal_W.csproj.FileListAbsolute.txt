@@ -1,0 +1,15 @@
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\bin\Debug\net9.0\Medal_W.exe
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\bin\Debug\net9.0\Medal_W.deps.json
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\bin\Debug\net9.0\Medal_W.runtimeconfig.json
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\bin\Debug\net9.0\Medal_W.dll
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\bin\Debug\net9.0\Medal_W.pdb
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\obj\Debug\net9.0\Medal_W.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\obj\Debug\net9.0\Medal_W.AssemblyInfoInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\obj\Debug\net9.0\Medal_W.AssemblyInfo.cs
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\obj\Debug\net9.0\Medal_W.csproj.CoreCompileInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\obj\Debug\net9.0\Medal_W.sourcelink.json
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\obj\Debug\net9.0\Medal_W.dll
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\obj\Debug\net9.0\refint\Medal_W.dll
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\obj\Debug\net9.0\Medal_W.pdb
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\obj\Debug\net9.0\Medal_W.genruntimeconfig.cache
+C:\Users\bynoe\Music\Personal Workspace02\Medal_W\obj\Debug\net9.0\ref\Medal_W.dll

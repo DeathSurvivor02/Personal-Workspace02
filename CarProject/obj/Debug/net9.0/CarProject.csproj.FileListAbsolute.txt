@@ -1,0 +1,15 @@
+C:\Users\bynoe\Music\Personal Workspace02\CarProject\obj\Debug\net9.0\CarProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bynoe\Music\Personal Workspace02\CarProject\obj\Debug\net9.0\CarProject.AssemblyInfoInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\CarProject\obj\Debug\net9.0\CarProject.AssemblyInfo.cs
+C:\Users\bynoe\Music\Personal Workspace02\CarProject\obj\Debug\net9.0\CarProject.csproj.CoreCompileInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\CarProject\obj\Debug\net9.0\CarProject.sourcelink.json
+c:\Users\bynoe\Music\Personal Workspace02\CarProject\bin\Debug\net9.0\CarProject.exe
+c:\Users\bynoe\Music\Personal Workspace02\CarProject\bin\Debug\net9.0\CarProject.deps.json
+c:\Users\bynoe\Music\Personal Workspace02\CarProject\bin\Debug\net9.0\CarProject.runtimeconfig.json
+c:\Users\bynoe\Music\Personal Workspace02\CarProject\bin\Debug\net9.0\CarProject.dll
+c:\Users\bynoe\Music\Personal Workspace02\CarProject\bin\Debug\net9.0\CarProject.pdb
+c:\Users\bynoe\Music\Personal Workspace02\CarProject\obj\Debug\net9.0\CarProject.dll
+c:\Users\bynoe\Music\Personal Workspace02\CarProject\obj\Debug\net9.0\refint\CarProject.dll
+c:\Users\bynoe\Music\Personal Workspace02\CarProject\obj\Debug\net9.0\CarProject.pdb
+c:\Users\bynoe\Music\Personal Workspace02\CarProject\obj\Debug\net9.0\CarProject.genruntimeconfig.cache
+c:\Users\bynoe\Music\Personal Workspace02\CarProject\obj\Debug\net9.0\ref\CarProject.dll

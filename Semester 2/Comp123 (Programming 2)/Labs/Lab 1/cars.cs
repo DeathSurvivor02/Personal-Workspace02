@@ -3,9 +3,11 @@ using System;
 class CarClass
 {
 
-	static void Main()
+	static void Main(string[] args)
 	{
-
+		Car car1 = new Car("Mercedes", 2023, 40000, true);
+		Car car2 = new Car("Toyota", 2022, 35000);
+		Console.WriteLine(car1.ToString());
 	}
 }
 public class Car
