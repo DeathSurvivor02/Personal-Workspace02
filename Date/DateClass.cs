@@ -1,4 +1,4 @@
-using System;
+
 
 namespace DateClass;
 
@@ -20,10 +20,11 @@ public class DateClass
 	}
 
 	//Functions:
-	public override string ToString()
-	{
-		return ($"Days: {day}, Month: {month}, Year: {year}");
-	}
+
+ public override string ToString()
+ {
+     return ($"Days: {day}, Month: {month}, Year: {year}");
+ }
 
 	public void Add(int day)
 	{

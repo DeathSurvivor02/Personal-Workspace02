@@ -1,0 +1,15 @@
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\bin\Debug\net9.0\Lab_08_Time.exe
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\bin\Debug\net9.0\Lab_08_Time.deps.json
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\bin\Debug\net9.0\Lab_08_Time.runtimeconfig.json
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\bin\Debug\net9.0\Lab_08_Time.dll
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\bin\Debug\net9.0\Lab_08_Time.pdb
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\obj\Debug\net9.0\Lab_08_Time.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\obj\Debug\net9.0\Lab_08_Time.AssemblyInfoInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\obj\Debug\net9.0\Lab_08_Time.AssemblyInfo.cs
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\obj\Debug\net9.0\Lab_08_Time.csproj.CoreCompileInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\obj\Debug\net9.0\Lab_08_Time.sourcelink.json
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\obj\Debug\net9.0\Lab_08_Time.dll
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\obj\Debug\net9.0\refint\Lab_08_Time.dll
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\obj\Debug\net9.0\Lab_08_Time.pdb
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\obj\Debug\net9.0\Lab_08_Time.genruntimeconfig.cache
+C:\Users\bynoe\Music\Personal Workspace02\Lab_08_Time\obj\Debug\net9.0\ref\Lab_08_Time.dll

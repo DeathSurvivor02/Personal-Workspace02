@@ -1,0 +1,15 @@
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\bin\Debug\net9.0\Complex.exe
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\bin\Debug\net9.0\Complex.deps.json
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\bin\Debug\net9.0\Complex.runtimeconfig.json
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\bin\Debug\net9.0\Complex.dll
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\bin\Debug\net9.0\Complex.pdb
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\obj\Debug\net9.0\Complex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\obj\Debug\net9.0\Complex.AssemblyInfoInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\obj\Debug\net9.0\Complex.AssemblyInfo.cs
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\obj\Debug\net9.0\Complex.csproj.CoreCompileInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\obj\Debug\net9.0\Complex.sourcelink.json
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\obj\Debug\net9.0\Complex.dll
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\obj\Debug\net9.0\refint\Complex.dll
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\obj\Debug\net9.0\Complex.pdb
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\obj\Debug\net9.0\Complex.genruntimeconfig.cache
+C:\Users\bynoe\Music\Personal Workspace02\Com[lex\obj\Debug\net9.0\ref\Complex.dll

@@ -1,0 +1,15 @@
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\bin\Debug\net9.0\Atoms.exe
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\bin\Debug\net9.0\Atoms.deps.json
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\bin\Debug\net9.0\Atoms.runtimeconfig.json
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\bin\Debug\net9.0\Atoms.dll
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\bin\Debug\net9.0\Atoms.pdb
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\obj\Debug\net9.0\Atoms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\obj\Debug\net9.0\Atoms.AssemblyInfoInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\obj\Debug\net9.0\Atoms.AssemblyInfo.cs
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\obj\Debug\net9.0\Atoms.csproj.CoreCompileInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\obj\Debug\net9.0\Atoms.sourcelink.json
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\obj\Debug\net9.0\Atoms.dll
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\obj\Debug\net9.0\refint\Atoms.dll
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\obj\Debug\net9.0\Atoms.pdb
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\obj\Debug\net9.0\Atoms.genruntimeconfig.cache
+C:\Users\bynoe\Music\Personal Workspace02\Atoms\obj\Debug\net9.0\ref\Atoms.dll

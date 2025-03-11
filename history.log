@@ -1,0 +1,2 @@
+3161c30f-53c4-4836-bfaa-9fe8fdff0a16:1737621619057:0:F:INSERT INTO INSTRUCTOR (INS_ID, LASTNAME, FIRSTNAME, CITY, COUNTRY) \nVALUES (2, 'Chong', 'Raul', 'Toronto', 'CA'), \n       (3, 'Vasudevan', 'Hima', 'Chicago', 'USA');
+81f0d092-efc6-42d5-b6ad-17fa30703fe8:1737621748274:0:F:INSERT INTO INSTRUCTOR (INS_ID, LASTNAME, FIRSTNAME, CITY, COUNTRY) \nVALUES (2, 'Chong', 'Raul', 'Toronto', 'CA'), \n       (3, 'Vasudevan', 'Hima', 'Chicago', 'USA');

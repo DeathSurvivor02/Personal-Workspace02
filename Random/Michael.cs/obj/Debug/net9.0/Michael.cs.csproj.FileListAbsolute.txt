@@ -1,0 +1,15 @@
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\bin\Debug\net9.0\Michael.cs.exe
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\bin\Debug\net9.0\Michael.cs.deps.json
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\bin\Debug\net9.0\Michael.cs.runtimeconfig.json
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\bin\Debug\net9.0\Michael.cs.dll
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\bin\Debug\net9.0\Michael.cs.pdb
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\obj\Debug\net9.0\Michael.cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\obj\Debug\net9.0\Michael.cs.AssemblyInfoInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\obj\Debug\net9.0\Michael.cs.AssemblyInfo.cs
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\obj\Debug\net9.0\Michael.cs.csproj.CoreCompileInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\obj\Debug\net9.0\Michael.cs.sourcelink.json
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\obj\Debug\net9.0\Michael.cs.dll
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\obj\Debug\net9.0\refint\Michael.cs.dll
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\obj\Debug\net9.0\Michael.cs.pdb
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\obj\Debug\net9.0\Michael.cs.genruntimeconfig.cache
+C:\Users\bynoe\Music\Personal Workspace02\Random\Michael.cs\obj\Debug\net9.0\ref\Michael.cs.dll

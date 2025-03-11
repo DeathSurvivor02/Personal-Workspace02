@@ -49,11 +49,11 @@ int main()
 	ofstream lottery{"lottery.txt", ios::out};
 
 	ifstream read2012{"2012.txt", ios::in};
-	// ifstream read2013{"2013.txt", ios::in};
-	// ifstream read2014{"2014.txt", ios::in};
-	// ifstream read2015{"2015.txt", ios::in};
-	// ifstream read2016{"2016.txt", ios::in};
-	// ifstream read2017{"2017.txt", ios::in};
+	ifstream read2013{"2013.txt", ios::in};
+	ifstream read2014{"2014.txt", ios::in};
+	ifstream read2015{"2015.txt", ios::in};
+	ifstream read2016{"2016.txt", ios::in};
+	ifstream read2017{"2017.txt", ios::in};
 
 	int count = 0;
 	int repeating = 0;

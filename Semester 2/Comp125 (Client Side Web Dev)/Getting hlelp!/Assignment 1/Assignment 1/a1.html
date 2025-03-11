@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="a1-301390261.js" defer></script>
+	<title>Javascript Assignment One</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<h1>Interest Rate Calculator</h1>
+	<!-- Todo: Add  option to change from USD to CAD -->
+	<radio>
+		<input type="radio" id="USD" name="currency" value="USD" required>
+		<label for="USD">USD</label>
+		<input type="radio" name="currency" id="CAD">
+		<label for="CAD">CAD</label>
+	</radio>
+	<br><br>
+	<form>
+		<label for="Bal">Initial Balance</label>
+		<input type="text" id="Bal" name="Bal">
+		<br><br>
+		<label for="Int">Interest (%)</label>
+		<input type="text" id="Int" name="Int">
+		<br><br>
+		<label for="Yrs">Years</label>
+		<input type="text" id="Yrs" name="Yrs">
+		<br><br>
+		<input type="button" value="Calculate" id="myButton">
+	</form>
+	<br>
+	<p>Accumulated Interest: <span id="TotalInterest"></span></p>
+	<br>
+	<p>Total Balance: <span id="TotalBalance"></span></p>
+</body>
+<footer>
+	<p>Student Name: Ean Bynoe </p>
+	<p>ID Number: 301390u261</p>
+	<p>© 2025 </p>
+</footer>
+
+
+</html>

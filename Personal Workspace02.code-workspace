@@ -107,8 +107,8 @@
 		"C_Cpp.autocompleteAddParentheses": true,
 		"C_Cpp.vcFormat.space.beforeOpenSquareBracket": true,
 		"editor.semanticHighlighting.enabled": true,
-		"workbench.preferredDarkColorTheme": "Sapphire",
-		"workbench.colorTheme": "Neon Night",
+		"workbench.preferredDarkColorTheme": "Neon Night",
+		"workbench.colorTheme": "Solarized Dark",
 		"editor.fontFamily": "Syne",
 		"CodeGPT.apiKey": "CodeGPT Plus Beta"
 	},

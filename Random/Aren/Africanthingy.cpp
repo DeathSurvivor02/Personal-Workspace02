@@ -18,17 +18,16 @@ void functiongame()
 
 	srand(time(NULL));
 
-	do {
+	do
+	{
 		randnum = rand() % (54 + 1 - 1) + 1;
-	} 
-	while (startgame == " YES ");
+	} while (startgame == " YES ");
 
 	cout << endl;
 
 	if (randnum == 1)
 	{
 		cout << " The presented country is: -------";
-
 	}
 	else if (randnum == 2)
 	{
@@ -127,7 +126,7 @@ void functiongame()
 		cout << " The presented country: ----- ";
 	}
 	else if (randnum == 26)
-	{ 
+	{
 		cout << " The presented country: ------- ";
 	}
 	else if (randnum == 27)
@@ -242,11 +241,12 @@ void functiongame()
 	{
 		cout << " The presented country: -------- ";
 	}
-	else cout << " Error something went wrong ";
+	else
+		cout << " Error something went wrong ";
 }
 
-
-int main() {
+int main()
+{
 
 	int i = 0;
 	// Create and open a text file
@@ -267,7 +267,7 @@ int main() {
 	// Read from the text file
 	ifstream MyReadFile("African Countries.txt");
 	// string afcountries;
-	array <string, 54> afcountries;
+	array<string, 54> afcountries;
 	// Use a while loop together with the getline() function to read the file line by line
 	// while (getline(MyReadFile, myText))
 	while (ReadFile >> quoted(myText))

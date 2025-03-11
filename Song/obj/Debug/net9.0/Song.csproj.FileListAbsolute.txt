@@ -1,0 +1,15 @@
+C:\Users\bynoe\Music\Personal Workspace02\Song\obj\Debug\net9.0\Song.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bynoe\Music\Personal Workspace02\Song\obj\Debug\net9.0\Song.AssemblyInfoInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\Song\obj\Debug\net9.0\Song.AssemblyInfo.cs
+C:\Users\bynoe\Music\Personal Workspace02\Song\obj\Debug\net9.0\Song.csproj.CoreCompileInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\Song\obj\Debug\net9.0\Song.sourcelink.json
+C:\Users\bynoe\Music\Personal Workspace02\Song\bin\Debug\net9.0\Song.exe
+C:\Users\bynoe\Music\Personal Workspace02\Song\bin\Debug\net9.0\Song.deps.json
+C:\Users\bynoe\Music\Personal Workspace02\Song\bin\Debug\net9.0\Song.runtimeconfig.json
+C:\Users\bynoe\Music\Personal Workspace02\Song\bin\Debug\net9.0\Song.dll
+C:\Users\bynoe\Music\Personal Workspace02\Song\bin\Debug\net9.0\Song.pdb
+C:\Users\bynoe\Music\Personal Workspace02\Song\obj\Debug\net9.0\Song.dll
+C:\Users\bynoe\Music\Personal Workspace02\Song\obj\Debug\net9.0\refint\Song.dll
+C:\Users\bynoe\Music\Personal Workspace02\Song\obj\Debug\net9.0\Song.pdb
+C:\Users\bynoe\Music\Personal Workspace02\Song\obj\Debug\net9.0\Song.genruntimeconfig.cache
+C:\Users\bynoe\Music\Personal Workspace02\Song\obj\Debug\net9.0\ref\Song.dll
