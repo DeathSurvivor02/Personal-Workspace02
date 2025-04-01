@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+   COMP125 Midterm Test Template
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>COMP125W25 Midterm</title>
+   <link rel="stylesheet" href="styles.css" />   
+   <script src="test-301390261.js" defer></script>
+</head>
+
+<body>
+   <header>
+      <h1>
+         Midterm COMP125
+      </h1>
+   </header>
+
+   <article>
+      <h1>Payment Form</h1>
+      <form id="billShip" name="billShip" method="get">
+         <section>
+         <fieldset id="creditcard">
+            <legend>Payment Information</legend>
+            <label for="cardName">Name*</label>
+            <input name="cardName" id="cardName"  type="text" placeholder="Cardholder Name" />              
+            <label for="cardNumber">Credit Card Number*</label>
+            <input name="cardNumber" id="cardNumber" type="text" placeholder="Credit Card Number" />
+            <label for="cvc">CVC*</label>
+            <input name="cvc" id="cvc"  type="text" placeholder="CVC"/>
+         </fieldset>
+
+         </section>
+         
+         <section>
+            <fieldset id="billing">
+               <input type="checkbox" name="copyPayment" id="copyPayment" />
+               <label id="cbLabel" for="copyPayment">Same as Payment Info</label>
+               <legend>Payment Info Copy</legend>
+               <label for="cardName2">Name</label>
+               <input name="cardName2" id="cardName2" type="text" placeholder="Cardholder Name" />              
+               <label for="cardNumber2">Credit Card Number</label>
+               <input name="cardNumber2" id="cardNumber2"  type="text" placeholder="Credit Card Number" />
+               <label for="cvc2">CVC</label>
+               <input name="cvc2" id="cvc2" type="text" placeholder="CVC"/>
+            </fieldset>
+         </section>
+         
+         <p id="errorBox">Fill out mandatory fields and click submit!</p>
+         <input type="submit" id="subButton" value="Submit" />      
+      </form>
+   </article>      
+</body>
+</html>

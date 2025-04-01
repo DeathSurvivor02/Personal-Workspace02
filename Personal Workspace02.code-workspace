@@ -108,9 +108,10 @@
 		"C_Cpp.vcFormat.space.beforeOpenSquareBracket": true,
 		"editor.semanticHighlighting.enabled": true,
 		"workbench.preferredDarkColorTheme": "Neon Night",
-		"workbench.colorTheme": "Solarized Dark",
+		"workbench.colorTheme": "Neon Night",
 		"editor.fontFamily": "Syne",
-		"CodeGPT.apiKey": "CodeGPT Plus Beta"
+		"CodeGPT.apiKey": "CodeGPT Plus Beta",
+		"liveServer.settings.port": 5501
 	},
 	"extensions": {
 		"recommendations": [

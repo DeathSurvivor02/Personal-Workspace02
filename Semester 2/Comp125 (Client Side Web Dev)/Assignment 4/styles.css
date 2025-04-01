@@ -1,0 +1,42 @@
+form{
+	margin: 0 auto;
+	/* width: 50%; */
+	padding: 10px;
+	border: 1px solid black;
+	/* border-radius: px; */
+	/* background-color: #f0f0f0; */
+	/* color: ; */
+}
+
+
+form h2,h3{
+	text-align: center;
+	font-size: 1.5em;
+	
+}
+body{
+	background-image: url("atrox.jpg");
+	background-color: rgba(0, 0, 0, 0.5); 
+	background-blend-mode: multiply; 
+	background-repeat: no-repeat;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin: 0;
+	color: white;
+}
+form {
+	/* display: block; */
+	/* margin: 10px 0; */
+	padding: 25px;
+}
+
+form input[type="text"], input[type="password"], input[type="email"]{
+	/* margin-top: 15px; */
+	/* margin-bottom: 20px; */
+	border: none;
+	border-bottom: 1px solid black;
+	width: 100%;
+	font-size: 1rem;
+	padding: 0,10px,10px;
+	width: 200px;
+}

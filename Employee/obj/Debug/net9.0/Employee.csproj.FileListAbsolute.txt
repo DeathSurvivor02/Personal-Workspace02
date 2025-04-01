@@ -1,0 +1,15 @@
+C:\Users\bynoe\Music\Personal Workspace02\Employee\obj\Debug\net9.0\Employee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bynoe\Music\Personal Workspace02\Employee\obj\Debug\net9.0\Employee.AssemblyInfoInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\Employee\obj\Debug\net9.0\Employee.AssemblyInfo.cs
+C:\Users\bynoe\Music\Personal Workspace02\Employee\obj\Debug\net9.0\Employee.csproj.CoreCompileInputs.cache
+C:\Users\bynoe\Music\Personal Workspace02\Employee\obj\Debug\net9.0\Employee.sourcelink.json
+C:\Users\bynoe\Music\Personal Workspace02\Employee\bin\Debug\net9.0\Employee.exe
+C:\Users\bynoe\Music\Personal Workspace02\Employee\bin\Debug\net9.0\Employee.deps.json
+C:\Users\bynoe\Music\Personal Workspace02\Employee\bin\Debug\net9.0\Employee.runtimeconfig.json
+C:\Users\bynoe\Music\Personal Workspace02\Employee\bin\Debug\net9.0\Employee.dll
+C:\Users\bynoe\Music\Personal Workspace02\Employee\bin\Debug\net9.0\Employee.pdb
+C:\Users\bynoe\Music\Personal Workspace02\Employee\obj\Debug\net9.0\Employee.dll
+C:\Users\bynoe\Music\Personal Workspace02\Employee\obj\Debug\net9.0\refint\Employee.dll
+C:\Users\bynoe\Music\Personal Workspace02\Employee\obj\Debug\net9.0\Employee.pdb
+C:\Users\bynoe\Music\Personal Workspace02\Employee\obj\Debug\net9.0\Employee.genruntimeconfig.cache
+C:\Users\bynoe\Music\Personal Workspace02\Employee\obj\Debug\net9.0\ref\Employee.dll
