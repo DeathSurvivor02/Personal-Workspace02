@@ -1,0 +1,24 @@
+{
+    "images": [
+      {
+        "filename": "images/image06.jpeg",
+        "displayTimeMs": 1000
+      },
+      {
+        "filename": "images/image07.jpeg",
+        "displayTimeMs": 3000
+      },
+      {
+        "filename": "images/image08.jpeg",
+        "displayTimeMs": 4000
+      },
+      {
+        "filename": "images/image09.jpeg",
+        "displayTimeMs": 5000
+      },
+      {
+        "filename": "images/image10.jpeg",
+        "displayTimeMs": 6000
+      }
+    ]
+}
