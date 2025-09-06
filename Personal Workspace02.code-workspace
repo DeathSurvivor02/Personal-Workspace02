@@ -98,7 +98,7 @@
 		"C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
 		"cSpell.autoFormatConfigFile": true,
 		"cSpell.showAutocompleteSuggestions": true,
-		"editor.minimap.autohide": true,
+		"editor.minimap.autohide": "mouseover",
 		"C_Cpp.vcFormat.space.beforeEmptySquareBrackets": true,
 		"C_Cpp.vcFormat.space.betweenEmptySquareBrackets": true,
 		"C_Cpp.vcFormat.space.betweenEmptyLambdaBrackets": true,
