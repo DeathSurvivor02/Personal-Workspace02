@@ -9,6 +9,10 @@
 		},
 		{
 			"path": "../../../Public/Documents"
+		},
+		{
+			"name": "EanBynoe_COMP228Lab1",
+			"path": "../Personal Workspace/Semster 3/Java/Labs/Lab1/EanBynoe_COMP228Lab1"
 		}
 	],
 	"settings": {
@@ -110,7 +114,8 @@
 		"workbench.preferredDarkColorTheme": "Sapphire",
 		"workbench.colorTheme": "Neon Night",
 		"editor.fontFamily": "Syne",
-		"CodeGPT.apiKey": "CodeGPT Plus Beta"
+		"CodeGPT.apiKey": "CodeGPT Plus Beta",
+		"FSharp.suggestGitignore": false
 	},
 	"extensions": {
 		"recommendations": [
