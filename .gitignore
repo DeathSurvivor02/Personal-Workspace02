@@ -1,5 +1,45 @@
+# C/C++
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.out
+*.app
+.vs/
+Debug/
+Release/
 
-.codegpt
-CarProject/obj/Debug/net9.0/CarProject.AssemblyInfoInputs.cache
-/CarProject
+# C#
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# Editor / OS
+.vscode/
+.codegpt/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Existing Items
+/CarProject/obj/Debug/net9.0/CarProject.AssemblyInfoInputs.cache
 /CarProject
